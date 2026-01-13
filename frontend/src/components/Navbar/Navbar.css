@@ -1,0 +1,106 @@
+/* Whole Navbar */
+.custom-navbar {
+  background: #ffffff;
+  padding: 14px 0;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.06);
+  z-index: 9999;
+}
+
+/* Logo */
+.logo-wrapper {
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.logo-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-size: 18px;
+  color: #222;
+}
+
+/* Left Menu */
+.left-menu {
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 4px !important;
+  transition: 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+/* Right Buttons */
+.right-buttons {
+  margin-left: auto !important;
+}
+
+.login-btn {
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: #000;
+}
+
+.get-btn {
+  background: #f65b3b !important;
+  color: #fff !important;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px !important;
+  padding: 8px 18px;
+  transition: 0.25s ease;
+  box-shadow: 
+      0 4px 10px rgba(0, 0, 0, 0.18),
+      inset 0 2px 4px rgba(255, 255, 255, 0.25),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.get-btn:hover {
+  background: #e14c2f !important;
+}
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+  .left-menu {
+    margin-left: 0;
+  }
+
+  .navbar-nav {
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  .right-buttons {
+    margin-left: 0 !important;
+  }
+}
+
+body {
+  padding-top: 85px;
+}
+
