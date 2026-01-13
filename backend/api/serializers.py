@@ -54,7 +54,7 @@ class SignupSerializer(serializers.ModelSerializer):
         # OTP
         otp = str(random.randint(100000, 999999))
         profile.set_otp(otp)
-        send_otp_email(user.email, otp)
+        # send_otp_email(user.email, otp)
 
         return profile  # ✅ Return the profile instance, not a dict
 
