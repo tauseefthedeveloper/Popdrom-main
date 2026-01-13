@@ -2,7 +2,7 @@ import axios from "axios";
 import { refreshToken } from "./refresh"; // naya file
 
 const api = axios.create({
-  baseURL: "http://localhost:8000/auth/",
+  baseURL: "https://popdrop-backend.onrender.com/",
 });
 
 // Add access token automatically
